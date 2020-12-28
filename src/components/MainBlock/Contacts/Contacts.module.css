@@ -1,0 +1,44 @@
+.wrapper {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.mainBlock {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	text-align: center;
+}
+
+.left p {
+	font-size: 24px;
+	display: inline-table;
+	border-bottom: 1px solid #000;
+	padding-bottom: 10px;
+}
+
+.left p .span2 {
+	font-style: italic;
+}
+
+.left p .span3 {
+	color: #F40A2CFF;
+}
+
+.right_header {
+	font-size: 40px; 
+	margin-top: 30px;
+}
+/*
+.map {
+	width: 100px;
+	height: 100px;
+}*/
+
+@media(max-width: 560px) {
+	.left p {
+		font-size: 14px;
+	}
+}

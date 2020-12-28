@@ -1,0 +1,12 @@
+.wrapper {
+	background: #f5f5f7
+}
+
+/* хром, сафари */
+body::-webkit-scrollbar { width: 0; }
+
+/* ie 10+ */
+body { -ms-overflow-style: none; }
+
+/*(свойство больше не работает, других способов тоже нет) */
+.element { overflow: -moz-scrollbars-none; }

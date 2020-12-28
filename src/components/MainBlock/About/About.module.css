@@ -1,0 +1,51 @@
+.wrapper {
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.mainBlock {
+	padding-top: 40px;
+	padding-bottom: 5px;
+}
+
+.title {
+	font-size: 48px;
+}
+
+.content {
+	font-size: 30px;
+}
+
+.content p {
+	display: block;
+	margin-top: 45px;
+}
+
+.content p .big {
+	display: inline-block;
+	background: #000;
+	color: #f5f5f7;
+	padding: 6px 12px;
+	margin-top: 5px;
+}
+
+.poster {
+	width: 317px;
+	height: 449px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+@media(max-width: 600px) {
+	.poster {
+		width: 187px;
+		height: 249px;
+	}
+	.title {
+		font-size: 38px;
+	}
+	.content {
+		font-size: 20px;
+	}
+}

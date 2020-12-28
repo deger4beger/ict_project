@@ -1,0 +1,32 @@
+.body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 61vh;
+	flex-direction: column;
+}
+
+.container {
+	width: 70%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.title {
+	display: block;
+	font-size: 40px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+@media(max-width: 600px) {
+	.title {
+		font-size: 34px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.container {
+		margin-bottom: 20px;
+	}
+}
