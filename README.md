@@ -1,1 +1,1 @@
-# ICT project by Kochinov D. Shokorov V. and Ragutskiy D.
+# ICT project by Kochinov D. Shokorov V. and Ragutskiy D. (React + ReactFinalForm)
